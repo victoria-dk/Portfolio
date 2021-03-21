@@ -27,6 +27,11 @@ h3 {
   opacity: 0.7;
 }
 
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -54,4 +59,24 @@ h3 {
   text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+
+.about-paragraphs {
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
 }
